@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=/home/vm_2018/Udacity/Term2/CarND-MPC-Project/Ipopt-3.12.7/ThirdParty/ASL
+
+Name: ASL
+Description: AMPL Solver Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.3.6
+Libs: ${libdir}/libcoinasl.la -lm -ldl 
+Cflags: -I/home/vm_2018/Udacity/Term2/CarND-MPC-Project/Ipopt-3.12.7/ThirdParty/ASL -I/home/vm_2018/Udacity/Term2/CarND-MPC-Project/Ipopt-3.12.7/ThirdParty/ASL/solvers
